@@ -1,0 +1,11 @@
+<!ELEMENT Doctor (s+)>
+<!ELEMENT s (id,name,age,Department,yearsexp,Specialization,salary,charge,city)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT Department (#PCDATA)>
+<!ELEMENT yearsexp (#PCDATA)>
+<!ELEMENT Specialization (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT charge (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
